@@ -7,8 +7,8 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Start the server
-app.listen(3000, () => {
-  console.log('Server listening on http://localhost:3000/');
+app.listen(5000, () => {
+  console.log('Server listening on http://localhost:5000/');
 });
 
 app.get('/', (req, res) => {
